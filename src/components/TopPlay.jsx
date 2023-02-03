@@ -38,11 +38,11 @@ const TopChartCard = ({
 						{song?.title}
 					</p>
 				</Link>
-				<Link to={`/artists/${song?.artists[0].adamid}`}>
+				{/* <Link to={`/artists/${song?.artists[0].adamid}`}>
 					<p className='text-base text-gray-300 mt-1'>
 						{song?.subtitle}
 					</p>
-				</Link>
+				</Link> */}
 			</div>
 		</div>
 		<PlayPause
@@ -105,7 +105,7 @@ const TopPlay = () => {
 					))}
 				</div>
 			</div>
-			<div className='w-full flex flex-col mt-8 '>
+			{/* <div className='w-full flex flex-col mt-8 '>
 				<div className='flex flex-row justify-between item-center'>
 					<h2 className='text-white font-bold text-2xl'>
 						Top Artists
@@ -139,7 +139,7 @@ const TopPlay = () => {
 						</SwiperSlide>
 					))}
 				</Swiper>
-			</div>
+			</div> */}
 		</div>
 	);
 };
